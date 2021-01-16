@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd
+ http://www.springframework.org/schema/context
+ http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!-- this is our bean -->
+
+<!-- first Way to create been -->
+
+	<!-- <bean class="com.springcore.Student" name="Student1"> 
+				<property name="studentId"> 
+					<value>2230</value> 
+					</property> 
+				<property name="studentName"> 
+					<value>Sumit</value> 
+				</property> 
+				<property name="studentAddress"> 
+					<value>Delhi</value> 
+				</property> 
+		
+		</bean> -->
+<!-- Second way to create bean -->
+
+	<!-- <bean class="com.springcore.Student" name="Student1"> 
+			
+			<property name="studentId" value="2230"/> 
+			<property name="studentName" value="Sumit"/>
+			 <property name="studentAddress" value="Delhi"/>
+		</bean> -->
+
+<!-- third way when we do not want to set properties or values here -->
+	<bean class="com.springcore.Student" name="Student1" scope="prototype" />  <!-- scope defines how many objects can be formed using application context -->
+
+
+</beans>

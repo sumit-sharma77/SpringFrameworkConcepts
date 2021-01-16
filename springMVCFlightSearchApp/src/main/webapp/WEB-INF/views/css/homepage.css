@@ -1,0 +1,38 @@
+@charset "ISO-8859-1";
+body {
+  background-image:url('https://mdbootstrap.com/img/Photos/Others/images/91.jpg');
+  background-position:center;
+  background-size:cover;
+  
+  -webkit-font-smoothing: antialiased;
+  font: normal 14px Roboto,arial,sans-serif;
+  font-family: 'Dancing Script', cursive!important;
+}
+.form_container{
+background-color: rgba(0,0,0,.70);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border-color:#d2d2d2;
+    border-width: 5px;
+    color:white;
+    box-shadow:0 1px 0 #cfcfcf;
+}
+.table{
+	background-color: rgba(0,0,0,.70);
+	border-radius: 15px;
+    border-color:#d2d2d2;
+    border-width: 5px;
+    color:black;
+    box-shadow:0 1px 0 #cfcfcf;
+}
+.table1{
+	background-color: rgba(0,0,0,.70);
+	border-radius: 15px;
+    border-color:#d2d2d2;
+    border-width: 5px;
+    color:white;
+    box-shadow:0 1px 0 #cfcfcf;
+}
